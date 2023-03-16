@@ -7,8 +7,6 @@ import { Routes } from './src/routes';
 import { THEME } from "./src/theme"
 import { Loading } from './src/components/Loading';
 
-
-
 export default function App() {
   const [fontLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
 
