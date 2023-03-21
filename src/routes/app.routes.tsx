@@ -41,7 +41,6 @@ export function AppRoutes() {
 
       },
 
-
     }}>
       <Screen
         name="home"
