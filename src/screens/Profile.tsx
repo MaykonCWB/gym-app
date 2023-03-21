@@ -7,8 +7,6 @@ import { Button } from "../components/Button";
 import { UserPhoto } from "../components/UserPhoto";
 import { ScreenHeader } from "../components/ScreenHeader";
 
-
-
 const PHOTO_SIZE = 33;
 
 export function Profile() {
@@ -53,7 +51,6 @@ export function Profile() {
             placeholder="E-Mail"
             isDisabled
           />
-
         </Center>
 
         <VStack px={10} mt={12} mb={9} >

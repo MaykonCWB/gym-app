@@ -1,11 +1,10 @@
 import { useNavigation } from "@react-navigation/native";
 import { VStack, Image, Text, Center, Heading, ScrollView } from "native-base";
 
-import LogoSvg from "../assets/logo.svg"
-import BackgroundImg from "../assets/background.png"
-
 import { Input } from "../components/Input";
 import { Button } from "../components/Button";
+import LogoSvg from "../assets/logo.svg"
+import BackgroundImg from "../assets/background.png"
 
 export function SignUp() {
 
@@ -62,7 +61,6 @@ export function SignUp() {
           mt={24}
           onPress={handleGoBack}
         />
-
       </VStack>
     </ScrollView>
   )
