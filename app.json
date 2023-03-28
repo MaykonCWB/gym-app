@@ -3,8 +3,7 @@
     "name": "gym-app",
     "slug": "gym-app",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [["expo-image-picker", { "photosPhermission": "the app" }]]
   }
 }
