@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { VStack, Text, SectionList, Heading } from "native-base";
 
-import { HistoryCard } from "../components/HistoryCard";
-import { ScreenHeader } from "../components/ScreenHeader";
+import { HistoryCard } from "@components/HistoryCard";
+import { ScreenHeader } from "@components/ScreenHeader";
 
 export function History() {
   const [exercises, setExercises] = useState([
