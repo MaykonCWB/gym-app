@@ -22,7 +22,7 @@ export function ExerciseCard({ ...rest }: Props) {
         />
 
         <VStack flex={1}>
-          <Heading fontSize="lg" color="white">
+          <Heading fontFamily="heading" fontSize="lg" color="white">
             Desenvolvimento halteres
           </Heading>
 
