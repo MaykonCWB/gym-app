@@ -5,11 +5,11 @@ import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup"
 
-import LogoSvg from "../assets/logo.svg"
-import BackgroundImg from "../assets/background.png"
+import LogoSvg from "@assets/logo.svg"
+import BackgroundImg from "@assets/background.png"
 
-import { Input } from "../components/Input";
-import { Button } from "../components/Button";
+import { Input } from "@components/Input";
+import { Button } from "@components/Button";
 
 type FormDataProps = {
   name: string;
@@ -22,7 +22,7 @@ const signUpSchema = yup.object({
   name: yup.string().required("Informe o nome."),
   email: yup.string().required("informe o e-mail.").email("E-mail inválido."),
   password: yup.string().required("Informe a senha.").min(5, "A senha deve conter pelo menos 5 dígitos."),
-  password_confirm: yup.string().required("Confirme a senha.").oneOf([yup.ref("password"), null], "A confirmação da senha não confere.")
+  password_confirm: yup.string().required("Confirme a senha.").oneOf([yup.ref("password")], "A confirmação da senha não confere.")
 })
 
 export function SignUp() {

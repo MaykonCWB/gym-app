@@ -2,10 +2,10 @@ import { useState } from "react";
 import { FlatList, HStack, Heading, Text, VStack } from "native-base";
 import { useNavigation } from "@react-navigation/native";
 
-import { HomeHeader } from "../components/HomeHeader";
-import { Group } from "../components/Group";
-import { ExerciseCard } from "../components/ExerciseCard";
-import { AppNavigatorRoutesProps } from "../routes/app.routes";
+import { HomeHeader } from "@components/HomeHeader";
+import { Group } from "@components/Group";
+import { ExerciseCard } from "@components/ExerciseCard";
+import { AppNavigatorRoutesProps } from "@routes/app.routes";
 
 export function Home() {
   const [groups, setGroups] = useState(["costa", "TricepS", "OMbro", "biCepis"])
