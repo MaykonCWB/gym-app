@@ -5,10 +5,10 @@ import * as ImagePicker from "expo-image-picker"
 import * as FileSystem from "expo-file-system"
 
 
-import { Input } from "../components/Input";
-import { Button } from "../components/Button";
-import { UserPhoto } from "../components/UserPhoto";
-import { ScreenHeader } from "../components/ScreenHeader";
+import { Input } from "@components/Input";
+import { Button } from "@components/Button";
+import { UserPhoto } from "@components/UserPhoto";
+import { ScreenHeader } from "@components/ScreenHeader";
 
 const PHOTO_SIZE = 33;
 
