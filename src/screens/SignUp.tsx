@@ -10,11 +10,11 @@ import { api } from "../services/api";
 
 import { AppError } from "../utils/AppError";
 
-import LogoSvg from "../assets/logo.svg"
-import BackgroundImg from "../assets/background.png"
+import LogoSvg from "@assets/logo.svg"
+import BackgroundImg from "@assets/background.png"
 
-import { Input } from "../components/Input";
-import { Button } from "../components/Button";
+import { Input } from "@components/Input";
+import { Button } from "@components/Button";
 import { Alert } from "react-native";
 import { color } from "native-base/lib/typescript/theme/styled-system";
 
