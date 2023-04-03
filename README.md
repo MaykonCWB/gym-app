@@ -1,7 +1,7 @@
 # GYM APP
 
 <div>
-Mobile of the main App developed at Rocketseat.
+Aplicativo Mobile em React-Native | Native Base | TypeScript
  </div>
  <br>
 
