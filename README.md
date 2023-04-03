@@ -1,24 +1,15 @@
-Mobile App Based on React Native (Native Base)
+Gym App
 
-Install with Expo
-Download the apk
-Relevant libraries
-expo
-axios (api calls)
-date-fns (format dates)
-react-native-root-toast (for toast messages)
-react-navigation
-react-redux
-redux-saga (asynchronous api calls from actions)
-redux-persist (persist authentication)
-styled-components (all styles with css)
+Mobile of the main App developed at Rocketseat.
 
 
-Install dependencies
+⚛ React Native — A library to build mobile user interfaces
+⚛ Redux — State management (includes Saga and Persist)
+🔥 Axios — API requests
+💅 Native Base UI
+💖 Lint — ESlint/Prettier/Editor Config
 
-yarn install
-Set the API_URL on src/config/api-config
+Getting started
+First you need to have node or yarn installed on your machine. Then, you can clone this repository and run the following commands inside the project folder:
 
-Run the app
-
-expo start
+yarn start;
