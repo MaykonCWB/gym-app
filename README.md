@@ -3,13 +3,15 @@
 <div>
 Mobile of the main App developed at Rocketseat.
  </div>
+ <br>
 
-<div>
-⚛ React Native — A library to build mobile user interfaces
-⚛ Redux — State management (includes Saga and Persist)
-🔥 Axios — API requests
-💅 Native Base UI
-💖 Lint — ESlint/Prettier/Editor Config
+<div style="display: inside_block"><br/>
+⚛ React Native — A library to build mobile user interfaces<br>
+⚛ Redux — State management (includes Saga and Persist)<br>
+🔥 Axios — API requests<br>
+💅 Native Base UI<br>
+💖 Lint — ESlint/Prettier/Editor Config<br>
+    <br>
   </div>
 
 Getting started
