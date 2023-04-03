@@ -14,7 +14,8 @@ Mobile of the main App developed at Rocketseat.
     <br>
   </div>
 
-Getting started
+# Getting started
+
 First you need to have node or yarn installed on your machine. Then, you can clone this repository and run the following commands inside the project folder:
 
 yarn start;
