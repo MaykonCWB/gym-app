@@ -36,15 +36,13 @@ export function Profile() {
       if (photoSelected.assets[0].uri) {
         const photoInfo = await FileSystem.getInfoAsync(photoSelected.assets[0].uri)
 
-        console.log(photoInfo)
-
         // TODO VALIDAÇÃO TAMANHO //
 
         setUserPhoto(photoSelected.assets[0].uri)
       }
 
     } catch (error) {
-      console.log(error)
+      throw error
     } finally {
       setPhotoIsLoading(false)
     }
