@@ -3,7 +3,6 @@ import { Image, HStack, Heading, Icon, Text, VStack, Box, ScrollView } from "nat
 import { Feather } from "@expo/vector-icons"
 import { useNavigation } from "@react-navigation/native";
 
-
 import { AppNavigatorRoutesProps } from "@routes/app.routes";
 
 import BodySvg from "@assets/body.svg"

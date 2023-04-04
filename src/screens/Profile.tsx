@@ -37,7 +37,6 @@ export function Profile() {
         const photoInfo = await FileSystem.getInfoAsync(photoSelected.assets[0].uri)
 
         // TODO VALIDAÇÃO TAMANHO //
-
         setUserPhoto(photoSelected.assets[0].uri)
       }
 
@@ -47,7 +46,6 @@ export function Profile() {
       setPhotoIsLoading(false)
     }
   }
-
 
   return (
     <VStack flex={1}>

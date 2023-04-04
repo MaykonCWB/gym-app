@@ -18,13 +18,11 @@ type FormData = {
   password: string;
 }
 
-
 export function SignIn() {
   const [isLoading, setIsLoading] = useState(false)
   const { signIn } = useAuth()
   const navigation = useNavigation<AuthNavigatorRoutesProps>();
   const toast = useToast()
-
 
   const { control, handleSubmit, formState: { errors } } = useForm<FormData>();
 
@@ -51,7 +49,6 @@ export function SignIn() {
 
     }
   }
-
 
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator={false}>
