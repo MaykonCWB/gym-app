@@ -1,7 +1,7 @@
 # GYM APP
 
 <div>
-Aplicativo Mobile em React-Native | Native Base | TypeScript
+APP Mobile React-Native | Native Base | TypeScript
  </div>
  <br>
 
