@@ -16,7 +16,7 @@ export function Home() {
   const [isLoading, setIsLoading] = useState(true)
   const [groups, setGroups] = useState<string[]>([])
   const [exercises, setExercises] = useState<ExerciseDTO[]>([])
-  const [groupSelected, setGroupSelected] = useState("ombro")
+  const [groupSelected, setGroupSelected] = useState("antebraço")
 
   const toast = useToast()
   const navigation = useNavigation<AppNavigatorRoutesProps>()
@@ -40,9 +40,7 @@ export function Home() {
         placement: "top",
         bgColor: "red.500"
       })
-
     }
-
   }
 
   async function fetchExercisesByGroup() {
@@ -114,7 +112,7 @@ export function Home() {
               keyExtractor={item => item.id}
               renderItem={({ item }) => (
                 <ExerciseCard
-                  onPressIn={() => { item.series }}
+                  onPressIn={() => handleOpenExerciseDetails(item.id)}
                   data={item}
                 />
 
