@@ -13,7 +13,7 @@ APP Mobile React-Native | Native Base | TypeScript
 💖 Lint — ESlint/Prettier/Editor Config<br>
     <br>
   </div>
-API - 
+<h2>API - https://github.com/Maykonctba/API-Rocketseat </h2>
 # Getting started
 
 First you need to have node or yarn installed on your machine. Then, you can clone this repository and run the following commands inside the project folder:
