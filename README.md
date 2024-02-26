@@ -1,11 +1,9 @@
+<Center><h1># GYM APP</h1></Center>
+
 <br /><br />
 <h4 align="center">
 <img src="https://github.com/MaykonCWB/gym-app/blob/main/thumb.png" align="center"/>
 </h4>
-
-
-
-<Center><h1># GYM APP</h1></Center>
 
 <div>
 APP Mobile React-Native | Native Base | TypeScript
