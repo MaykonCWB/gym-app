@@ -1,6 +1,6 @@
 <br /><br />
 <h4 align="center">
-<img src="[https://user-images.githubusercontent.com/12973109/215287171-192a21a4-8298-4ea7-9a18-a23c9fe41c30.pn](https://github.com/MaykonCWB/gym-app/blob/main/SCR-20240226-onpw.png)g" align="center"/>
+<img src="https://github.com/MaykonCWB/gym-app/blob/main/SCR-20240226-onpw.png" align="center"/>
 </h4>
 
 
