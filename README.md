@@ -1,4 +1,11 @@
-<h1># GYM APP</h1>h1>
+<br /><br />
+<h4 align="center">
+<img src="[https://user-images.githubusercontent.com/12973109/215287171-192a21a4-8298-4ea7-9a18-a23c9fe41c30.pn](https://github.com/MaykonCWB/gym-app/blob/main/SCR-20240226-onpw.png)g" align="center"/>
+</h4>
+
+
+
+<Center><h1># GYM APP</h1></Center>
 
 <div>
 APP Mobile React-Native | Native Base | TypeScript
@@ -15,7 +22,9 @@ APP Mobile React-Native | Native Base | TypeScript
   </div>
   
   <div>
-  Here's a project to showcase some of my skills. In terms of layout, , but I've designed the project to be scalable, so I can add components, techniques, styles, and more to demonstrate my knowledge. Below, I'll include a section on "refactoring," highlighting the changes I've made to the original project or the tools I've added.
+  Este é um projeto para mostrar algumas de minhas habilidades. Em termos de layout, o projeto foi projetado para ser escalonável, de modo que eu possa adicionar componentes,   
+   técnicas, estilos e muito mais para demonstrar meu conhecimento. Abaixo, incluirei uma seção sobre "refatoração", destacando as alterações que fiz no projeto original ou as 
+   ferramentas que adicionei.
   </div>
   
   <div>
