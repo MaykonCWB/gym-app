@@ -29,8 +29,6 @@ APP Mobile React-Native | Native Base | TypeScript
   
   <div>
   <h2>Refactor <h2>
- 
- - Conventional Commits
 
   </div>
   
